@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Saraswat | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="profile">
+        <img src="vishal.jpg" alt="Vishal Saraswat">
+        <h1 >Vishal Saraswat</h1>
+        <p>I am a <span id="typed-text"></span></p>
+        <script>
+            var typed = new Typed("#typed-text", {
+                strings: ["Web Developer", "Problem Solver", "Cloud Computing Expert"],
+                typeSpeed: 100,
+                backSpeed: 60,
+                loop: true
+            });
+        </script>
+        <a href="#contact" class="btn">Hire Me</a>
+    </section>
+    
+    <section id="about">
+        <h1>About Me</h1>
+        <p>Passionate web developer with expertise in front-end and back-end technologies, problem-solving, and cloud computing.</p>
+        <p>I have experience working on various projects that leverage modern web technologies to build efficient and scalable applications.</p>
+    </section>
+    
+    <section id="skills">
+        <h1>Technical Skills</h1>
+        <ul>
+            <li><i class="fas fa-code"></i> C, C++, Java with DSA (PW Skills Certification)</li>
+            <li><i class="fas fa-database"></i> SQL, MySQL</li>
+            <li><i class="fas fa-laptop-code"></i> Web Development (HTML, CSS, JavaScript, React.js, MongoDB)</li>
+            <li><i class="fas fa-cloud"></i> Cloud Computing (AWS)</li>
+            <li><i class="fas fa-code-branch"></i> Version Control (Git, GitHub)</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h1>Projects</h1>
+        <div class="project">
+            <h2>Hotel | Restaurant Management System</h2>
+            <p>Developed a restaurant management system to streamline operations and improve customer service.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+        <div class="project">
+            <h2>Clone of Myntra Website</h2>
+            <p>Designed and built a personal  website to showcase my skills and projects.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+    </section>
+    
+    <section id="certifications">
+        <h1>Certifications & Seminars</h1>
+        <ul>
+            <li>Front End Web Development - IBM Skill Build</li>
+            <li>Web Development</li>
+            <li>AWS Cloud Practitioner Essentials</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <p>Email: <a href="mailto:vsaraswat381@gmail.com">vsaraswat381@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/vishal-saraswat-a9429234a">LinkedIn Profile</a></p>
+        <p>GitHub: <a href="https://github.com/VishalSaraswat381">GitHub Profile</a></p>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Vishal Saraswat. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
